@@ -12,9 +12,6 @@
 
 /* CSS variables for reusablity across all files (including above imported) */
 :root {
-  --playfair-display: "Playfair Display", serif;
-  --plus-jakarta-sans: "Plus Jakarta Sans", sans-serif;
-
   --primary-color: #b1454a;
   --secondary-color: #121212;
 
@@ -61,7 +58,7 @@ a {
 .sushi__subtitle {
   font-size: 18px;
   font-weight: 400;
-  font-family: var(--plus-jakarta-sans);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 
   color: var(--primary-color);
   opacity: 0.8;
@@ -72,7 +69,7 @@ a {
 .sushi__title {
   font-size: 64px;
   font-weight: 600;
-  font-family: var(--playfair-display);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 
   color: var(--secondary-color);
 
@@ -82,7 +79,7 @@ a {
 .sushi__description {
   font-size: 18px;
   font-weight: 400;
-  font-family: var(--plus-jakarta-sans);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 
   line-height: 36px;
   letter-spacing: -0.01em;
