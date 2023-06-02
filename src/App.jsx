@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
+import Hero from "./pages/Hero";
 import Menu from "./pages/Menu";
 import Food from "./pages/Food";
 import Services from "./pages/Services";
@@ -14,6 +15,7 @@ const App = () => {
       <Router>
         <Navbar />
         <Routes>
+          <Route path="/hero" element={<Hero />} />
           <Route path="/menu" element={<Menu />} />
           <Route path="/food" element={<Food />} />
           <Route path="/services" element={<Services />} />

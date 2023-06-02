@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./Navbar.css";
 
 const Navbar = () => {
   return (
@@ -12,27 +13,22 @@ const Navbar = () => {
           </div>
           <ul className="header__menu" data-aos="fade-down">
             <li>
-              <Link to="/menu" className="nav-links">
-                Menu
-              </Link>
+              <Link to="/hero">Home</Link>
             </li>
             <li>
-              <Link to="/food" className="nav-links">
-                Food
-              </Link>
+              <Link to="/menu">Menu</Link>
             </li>
             <li>
-              <Link to="/services" className="nav-links">
-                Services
-              </Link>
+              <Link to="/food">Food</Link>
             </li>
             <li>
-              <Link to="/about-us" className="nav-links">
-                About us
-              </Link>
+              <Link to="/services">Services</Link>
             </li>
             <li>
-              <img src="assets/search.svg" alt="search" />
+              <Link to="/about-us">About us</Link>
+            </li>
+            <li>
+              <img src="../../src/assets/search.svg" alt="search" />
             </li>
           </ul>
         </nav>
