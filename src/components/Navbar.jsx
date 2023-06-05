@@ -13,6 +13,19 @@ const Navbar = () => {
           </div>
           <ul className="header__menu" data-aos="fade-down">
             <li>
+              <a href="#menu">Menu</a>
+            </li>
+            <li>
+              <a href="#food">Food</a>
+            </li>
+            <li>
+              <a href="#services">Services</a>
+            </li>
+            <li>
+              <a href="#about-us">About Us</a>
+            </li>
+            {/*
+            <li>
               <Link to="/hero">Home</Link>
             </li>
             <li>
@@ -29,7 +42,7 @@ const Navbar = () => {
             </li>
             <li>
               <img src="../../src/assets/search.svg" alt="search" />
-            </li>
+            </li>*/}
           </ul>
         </nav>
       </header>

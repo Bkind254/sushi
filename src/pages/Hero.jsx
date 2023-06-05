@@ -2,12 +2,19 @@ import React from "react";
 import "./Hero.css";
 
 import SUSHI1 from "../assets/sushi-1.png";
+import PLAY from "../assets/play-circle.svg";
+import USER from "../assets/user.png";
 
 const Hero = () => {
   return (
-    <div>
+    <div className="hero">
       <div className="hero-image">
-        <img src={SUSHI1} alt="sushi" data-aos="fade-up" />
+        <img
+          src={SUSHI1}
+          alt="sushi"
+          data-aos="fade-up"
+          class="aos-init aos-animate"
+        />
         <h2 data-aos="fade-up">
           日 <br />
           本 <br />食
@@ -27,7 +34,7 @@ const Hero = () => {
           <div className="hero-content__buttons">
             <button className="hero-content__order-button">Order Now</button>
             <button className="hero-content__play-button">
-              <img src="../assets/play-circle.svg" alt="play" />
+              <img src={PLAY} alt="play" />
               How to Order
             </button>
           </div>
@@ -42,7 +49,7 @@ const Hero = () => {
           </div>
 
           <div className="hero-content__review">
-            <img src="assets/user.png" alt="user" />
+            <img src={USER} alt="user" />
             <p>
               "This is the best Japanese food delivery service that ever
               existed."
