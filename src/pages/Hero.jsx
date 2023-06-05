@@ -9,13 +9,8 @@ const Hero = () => {
   return (
     <div className="hero">
       <div className="hero-image">
-        <img
-          src={SUSHI1}
-          alt="sushi"
-          data-aos="fade-up"
-          class="aos-init aos-animate"
-        />
-        <h2 data-aos="fade-up">
+        <img src={SUSHI1} alt="sushi" />
+        <h2>
           日 <br />
           本 <br />食
         </h2>
@@ -24,7 +19,7 @@ const Hero = () => {
       </div>
 
       <div className="hero-content">
-        <div className="hero-content-info" data-aos="fade-left">
+        <div className="hero-content-info">
           <h1>Feel the taste of Japanese food</h1>
           <p>
             Feel the taste of the most popular Japanese food from anywhere and
@@ -40,7 +35,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="hero-content__testimonial" data-aos="fade-up">
+        <div className="hero-content__testimonial">
           <div className="hero-content__customer flex-center">
             <h4>
               24<span>k+</span>

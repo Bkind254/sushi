@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+/*import { Link } from "react-router-dom";*/
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -8,10 +8,10 @@ const Navbar = () => {
       <header>
         <nav className="header__nav">
           <div className="header__logo">
-            <h4 data-aos="fade-down">Sushiman</h4>
+            <h4>Sushiman</h4>
             <div className="header__logo-overlay"></div>
           </div>
-          <ul className="header__menu" data-aos="fade-down">
+          <ul className="header__menu">
             <li>
               <a href="#menu">Menu</a>
             </li>

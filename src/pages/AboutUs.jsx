@@ -2,26 +2,25 @@ import React from "react";
 import "./About.css";
 import SUSHI3 from "../assets/sushi-3.png";
 import SUSHI2 from "../assets/sushi-2.png";
-import ARROWRIGHT from "../assets/sushi-3.png";
+import ARROWRIGHT from "../assets/arrow-right.svg";
 
 const AboutUs = () => {
   return (
     <div className="about-us" id="about-us">
       <div className="about-us__image">
         <div className="about-us__image-sushi3">
-          <img src={SUSHI3} alt="sushi" data-aos="fade-right" />
+          <img src={SUSHI3} alt="sushi" />
         </div>
         <button className="about-us__button">
           Learn More
           <img src={ARROWRIGHT} alt="learn more" />
         </button>
         <div className="about-us__image-sushi2">
-          <img src={SUSHI2} alt="sushi" data-aos="fade-right" />
+          <img src={SUSHI2} alt="sushi" />
         </div>
-        *
       </div>
 
-      <div className="about-us__content" data-aos="fade-left">
+      <div className="about-us__content">
         <p className="sushi__subtitle">About Us / 私たちに関しては</p>
         <h3 className="sushi__title">
           Our mission is to bring true Japanese flavours to you.
